@@ -4,6 +4,7 @@ using RTS;
 public class Tank : Unit {
 	
 	private Quaternion aimRotation;
+	private bool hasMoved;
 	
 	protected override void Start () {
 		base.Start ();
